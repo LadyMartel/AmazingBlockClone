@@ -8,6 +8,10 @@
 
 #import "MainScene.h"
 
-@implementation MainScene
+@implementation MainScene{
+    
+    CCNodeColor * _player;
+    
+}
 
 @end

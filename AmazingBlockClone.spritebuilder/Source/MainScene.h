@@ -10,4 +10,8 @@
 
 @interface MainScene : CCNode
 
+
+
+
+
 @end
