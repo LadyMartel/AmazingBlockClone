@@ -11,6 +11,7 @@
 		9A30C4E919A2B8DE00D32147 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A30C4E819A2B8DE00D32147 /* MenuScene.m */; };
 		9A30C4EC19A2B8F100D32147 /* GameoverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A30C4EB19A2B8F100D32147 /* GameoverScene.m */; };
 		9A30C4EF19A2B90300D32147 /* ObstacleSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A30C4EE19A2B90300D32147 /* ObstacleSet.m */; };
+		9ACE955C19A46E1A009B96E2 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE955B19A46E1A009B96E2 /* Player.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -68,6 +69,8 @@
 		9A30C4EB19A2B8F100D32147 /* GameoverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameoverScene.m; path = Source/GameoverScene.m; sourceTree = "<group>"; };
 		9A30C4ED19A2B90300D32147 /* ObstacleSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObstacleSet.h; path = Source/ObstacleSet.h; sourceTree = "<group>"; };
 		9A30C4EE19A2B90300D32147 /* ObstacleSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObstacleSet.m; path = Source/ObstacleSet.m; sourceTree = "<group>"; };
+		9ACE955A19A46E1A009B96E2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Source/Player.h; sourceTree = "<group>"; };
+		9ACE955B19A46E1A009B96E2 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Source/Player.m; sourceTree = "<group>"; };
 		A894B45E4CCA41638F573367 /* Pods-AmazingBlockClone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazingBlockClone.xcconfig"; path = "Pods/Pods-AmazingBlockClone.xcconfig"; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				9ACE955A19A46E1A009B96E2 /* Player.h */,
+				9ACE955B19A46E1A009B96E2 /* Player.m */,
 				9A30C4E719A2B8DE00D32147 /* MenuScene.h */,
 				9A30C4E819A2B8DE00D32147 /* MenuScene.m */,
 				9A30C4EA19A2B8F100D32147 /* GameoverScene.h */,
@@ -274,7 +279,6 @@
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
-						DevelopmentTeam = SBVP8ED765;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -398,6 +402,7 @@
 				9A30C4E919A2B8DE00D32147 /* MenuScene.m in Sources */,
 				9A30C4EF19A2B90300D32147 /* ObstacleSet.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				9ACE955C19A46E1A009B96E2 /* Player.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

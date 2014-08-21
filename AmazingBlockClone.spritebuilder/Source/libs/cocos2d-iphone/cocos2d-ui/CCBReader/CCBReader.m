@@ -159,7 +159,7 @@ static inline void alignBits(CCBReader *self)
 }
 
 
-static inline unsigned int readVariableLengthIntFromArray(const uint8_t* buffer, uint32_t * value) {
+static inline ptrdiff_t readVariableLengthIntFromArray(const uint8_t* buffer, uint32_t * value) {
     const uint8_t* ptr = buffer;
     uint32_t b;
     uint32_t result;
@@ -1339,7 +1339,7 @@ static inline float readFloat(CCBReader *self)
         embeddedNode.scaleX = ccbFileNode.scaleX;
         embeddedNode.scaleY = ccbFileNode.scaleY;
         embeddedNode.name = ccbFileNode.name;
-        embeddedNode.visible = YES;
+        embeddedNode.visible = ccbFileNode.visible;
         //embeddedNode.ignoreAnchorPointForPosition = ccbFileNode.ignoreAnchorPointForPosition;
         
         [animationManager moveAnimationsFromNode:ccbFileNode toNode:embeddedNode];

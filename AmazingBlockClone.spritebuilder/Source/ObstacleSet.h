@@ -8,9 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "MainScene.h"
+
+@class MainScene;
 
 @interface ObstacleSet : CCNode {
     
 }
+
+
+
+-(void)changeSpeed: (CGPoint) speed;
 
 @end
